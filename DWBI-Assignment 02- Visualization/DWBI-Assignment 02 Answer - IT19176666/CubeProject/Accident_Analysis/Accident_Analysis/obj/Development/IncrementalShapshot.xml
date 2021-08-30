@@ -1,0 +1,96 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Accident_Analysis</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>cvz4gZG19jNr+8+V8RnNWNzW6ag=6/25/2021 11:00:03 AM6/5/2021 6:11:01 PM</TimeStamp>
+        <ID>
+          <String>DS_Accident Warehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>d+0LscVMFbcUiS+zG5nKxMWBN5s=6/4/2021 5:37:34 PM6/4/2021 11:35:56 AM</TimeStamp>
+        <ID>
+          <String>DSV_Accident Warehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>E5GA3itaCP4S/c8OuuT93UzF/7k=6/6/2021 2:25:19 PM6/4/2021 5:37:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>oH3UPwj74FwbIwbX9uNG5H0obGQ=6/4/2021 5:55:47 PM6/4/2021 5:37:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Driver</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>371rZEuN1zX8Rji10iMUTYoowvo=6/4/2021 6:26:46 PM6/4/2021 5:37:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Controled Status</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>WBDaNJ6FZ2qZv5lPHRjGOD35Io4=6/5/2021 7:08:33 PM6/4/2021 5:37:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Road</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Ps/QDKSYfcFOYt6/70QrGk3SKL4=6/5/2021 5:51:07 PM6/4/2021 5:37:34 PM</TimeStamp>
+        <ID>
+          <String>Dim Accident Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>An8OwdkosAomDR9R0Ua5tlm9gDY=6/14/2021 6:51:34 AM6/4/2021 5:37:34 PMkOOf2JYzdivq2X2tQPE6l5+oH+k=6/4/2021 5:37:34 PM6/4/2021 5:37:34 PM</TimeStamp>
+        <ID>
+          <String>Cube_Accident</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>y2RerllyLMA2rwnr+h/5aWkkmd4=6/14/2021 5:04:16 AM6/11/2021 7:56:43 PM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>fciPwaLFx4WpMe/FZEciLf6Fy5g=6/14/2021 5:04:16 AM6/4/2021 10:01:17 AM</TimeStamp>
+      <ID>
+        <String>Accident_Analysis</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2021-06-25T07:43:07.82Z</LastDeployed>
+</DeploymentSnapshot>

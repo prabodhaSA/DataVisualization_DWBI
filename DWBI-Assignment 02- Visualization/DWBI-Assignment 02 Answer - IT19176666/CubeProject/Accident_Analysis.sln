@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Accident_Analysis", "Accident_Analysis\Accident_Analysis.dwproj", "{E0C5A7E3-382C-4A95-8310-F146C84FE04B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0C5A7E3-382C-4A95-8310-F146C84FE04B}.Development|Default.ActiveCfg = Development
+		{E0C5A7E3-382C-4A95-8310-F146C84FE04B}.Development|Default.Build.0 = Development
+		{E0C5A7E3-382C-4A95-8310-F146C84FE04B}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
